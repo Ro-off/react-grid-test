@@ -18,6 +18,7 @@ function App() {
 
   return (
     <>
+    <h3>Test Grid</h3>
       <Paper>
     <Grid
       rows={rows}
