@@ -15,6 +15,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@mui/icons-material/esm': path.resolve(__dirname, 'node_modules/@mui/icons-material')
+
     }
   },
   optimizeDeps: {
