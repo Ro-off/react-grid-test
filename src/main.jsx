@@ -16,7 +16,14 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
     <nav style={{ position: "fixed", top: 0, display: "flex", gap: 15, margin: 30 }}>
       {routes.map((route) => (
-        <NavLink key={route.path} to={route.path} end>
+        <NavLink 
+          key={route.path} 
+          to={route.path} 
+          end
+          style={({ isActive }) => ({
+            fontWeight: isActive ? 'bold' : 'normal'
+          })}
+        >
           {route.label}
         </NavLink>
       ))}
