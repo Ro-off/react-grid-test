@@ -11,6 +11,7 @@ import { DataFormatting } from "./pages/DataFormatting";
 import { Sorting } from "./pages/Sorting";
 import { Paging } from "./pages/Paging";
 import { Filtering } from "./pages/Filtering";
+import { Searching } from "./pages/Searching";
 const routes = [
   { path: "/", label: "Test", element: <App /> },
   { path: "/fundamentals", label: "Fundamentals", element: <Fundamentals /> },
@@ -44,6 +45,7 @@ const routes = [
     label: "Filtering",
     element: <Filtering />,
   },
+  { path: "/searching", label: "Searching", element: <Searching /> },
 ];
 
 createRoot(document.getElementById("root")).render(
