@@ -10,6 +10,7 @@ import { DataAccessors } from "./pages/DataAccessors";
 import { DataFormatting } from "./pages/DataFormatting";
 import { Sorting } from "./pages/Sorting";
 import { Paging } from "./pages/Paging";
+import { Filtering } from "./pages/Filtering";
 const routes = [
   { path: "/", label: "Test", element: <App /> },
   { path: "/fundamentals", label: "Fundamentals", element: <Fundamentals /> },
@@ -37,6 +38,11 @@ const routes = [
     path: "/paging",
     label: "Paging",
     element: <Paging />,
+  },
+  {
+    path: "/filtering",
+    label: "Filtering",
+    element: <Filtering />,
   },
 ];
 
