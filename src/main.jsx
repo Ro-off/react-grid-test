@@ -8,7 +8,8 @@ import { Fundamentals } from "./pages/Fundamentals";
 import { ControlledAndUncontrolled } from "./pages/ControlledAndUncontrolled";
 import { DataAccessors } from "./pages/DataAccessors";
 import { DataFormatting } from "./pages/DataFormatting";
-import { Sorting } from "./pages/Sorting.jsx";
+import { Sorting } from "./pages/Sorting";
+import { Paging } from "./pages/Paging";
 const routes = [
   { path: "/", label: "Test", element: <App /> },
   { path: "/fundamentals", label: "Fundamentals", element: <Fundamentals /> },
@@ -31,6 +32,11 @@ const routes = [
     path: "/sorting",
     label: "Sorting",
     element: <Sorting />,
+  },
+  {
+    path: "/paging",
+    label: "Paging",
+    element: <Paging />,
   },
 ];
 
