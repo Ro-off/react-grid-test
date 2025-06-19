@@ -13,11 +13,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Chip from "@mui/material/Chip";
 import Input from "@mui/material/Input";
 
-import {
-  generateRows,
-  globalSalesValues,
-  employeeValues,
-} from "../demo-data/generator";
+import { generateRows, globalSalesValues } from "../demo-data/generator";
 
 const ValueFormatting = () => {
   const CurrencyFormatter = ({ value }) => (
