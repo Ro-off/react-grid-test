@@ -5,7 +5,8 @@ import { BrowserRouter, Routes, Route, NavLink } from "react-router";
 import App from "./App.jsx";
 import "@devexpress/dx-react-grid-bootstrap4/dist/dx-react-grid-bootstrap4.css";
 import { Fundamentals } from "./pages/Fundamentals.jsx";
-import { ControlledAndUncontrolled } from "./pages/ControlledAndUncontrolled.jsx";
+import { ControlledAndUncontrolled } from "./pages/ControlledAndUncontrolled";
+import { DataAccessors } from "./pages/DataAccessors";
 
 const routes = [
   { path: "/", label: "Test", element: <App /> },
@@ -14,6 +15,11 @@ const routes = [
     path: "/controlledUncontrolled",
     label: "Controlled And Uncontrolled",
     element: <ControlledAndUncontrolled />,
+  },
+  {
+    path: "/dataAccessors",
+    label: "Data Accessors",
+    element: <DataAccessors />,
   },
 ];
 
