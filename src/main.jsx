@@ -13,6 +13,7 @@ import { Paging } from "./pages/Paging";
 import { Filtering } from "./pages/Filtering";
 import { Searching } from "./pages/Searching";
 import { Grouping } from "./pages/Grouping";
+import { Selection } from "./pages/Selection";
 const routes = [
   { path: "/", label: "Test", element: <App /> },
   { path: "/fundamentals", label: "Fundamentals", element: <Fundamentals /> },
@@ -48,6 +49,7 @@ const routes = [
   },
   { path: "/searching", label: "Searching", element: <Searching /> },
   { path: "/grouping", label: "Grouping", element: <Grouping /> },
+  { path: "/selection", label: "Selection", element: <Selection /> },
 ];
 
 createRoot(document.getElementById("root")).render(
