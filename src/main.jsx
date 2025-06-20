@@ -24,6 +24,7 @@ import { FixedColumns } from "./pages/FixedColumns";
 import { VirtualScrolling } from "./pages/VirtualScrolling";
 import { LazyLoading } from "./pages/LazyLoading";
 import { TreeData } from "./pages/TreeData.jsx";
+import { SummaryRow } from "./pages/SummaryRow.jsx";
 
 const routes = [
   { path: "/", label: "Test", element: <App /> },
@@ -70,7 +71,8 @@ const routes = [
   { path: "/fixedColumns", label: "Fixed Columns", element: <FixedColumns /> },
   { path: "/virtualScrolling", label: "Virtual Scrolling", element: <VirtualScrolling /> },
   { path: "/lazyLoading", label: "Lazy Loading", element: <LazyLoading /> },
-  { path: "/treeData", label: "Tree Data", element: <TreeData /> }
+  { path: "/treeData", label: "Tree Data", element: <TreeData /> },
+  { path: "/summaryRow", label: "Summary Row", element: <SummaryRow /> }
 ];
 
 createRoot(document.getElementById("root")).render(
