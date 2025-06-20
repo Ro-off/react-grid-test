@@ -23,6 +23,7 @@ import { BandedColumns } from "./pages/BandedColumns";
 import { FixedColumns } from "./pages/FixedColumns";
 import { VirtualScrolling } from "./pages/VirtualScrolling";
 import { LazyLoading } from "./pages/LazyLoading";
+import { TreeData } from "./pages/TreeData.jsx";
 
 const routes = [
   { path: "/", label: "Test", element: <App /> },
@@ -68,7 +69,8 @@ const routes = [
   { path: "/bandedColumns", label: "Banded Columns", element: <BandedColumns /> },
   { path: "/fixedColumns", label: "Fixed Columns", element: <FixedColumns /> },
   { path: "/virtualScrolling", label: "Virtual Scrolling", element: <VirtualScrolling /> },
-  { path: "/lazyLoading", label: "Lazy Loading", element: <LazyLoading /> }
+  { path: "/lazyLoading", label: "Lazy Loading", element: <LazyLoading /> },
+  { path: "/treeData", label: "Tree Data", element: <TreeData /> }
 ];
 
 createRoot(document.getElementById("root")).render(
