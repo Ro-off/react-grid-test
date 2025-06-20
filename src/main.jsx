@@ -17,6 +17,7 @@ import { Selection } from "./pages/Selection";
 import { Editing } from "./pages/Editing";
 import { DetailRow } from "./pages/DetailRow"
 import { ColumnReordering } from "./pages/ColumnReordering.jsx";
+import { ColumnResizing } from "./pages/ColumnResizing.jsx";
 
 const routes = [
   { path: "/", label: "Test", element: <App /> },
@@ -56,7 +57,8 @@ const routes = [
   { path: "/selection", label: "Selection", element: <Selection /> },
   { path: "/editing", label: "Editing", element: <Editing /> },
   { path: "/detailRow", label: "Detail Row", element: <DetailRow /> },
-  { path: "/columnReordering", label: "Column Reordering", element: <ColumnReordering /> }
+  { path: "/columnReordering", label: "Column Reordering", element: <ColumnReordering /> },
+  { path: "/columnResizing", label: "Column Resizing", element: <ColumnResizing /> }
 ];
 
 createRoot(document.getElementById("root")).render(
