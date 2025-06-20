@@ -19,6 +19,7 @@ import { DetailRow } from "./pages/DetailRow"
 import { ColumnReordering } from "./pages/ColumnReordering";
 import { ColumnResizing } from "./pages/ColumnResizing";
 import { ColumnVisibility } from "./pages/ColumnVisibility";
+import { BandedColumns } from "./pages/BandedColumns";
 
 const routes = [
   { path: "/", label: "Test", element: <App /> },
@@ -60,7 +61,8 @@ const routes = [
   { path: "/detailRow", label: "Detail Row", element: <DetailRow /> },
   { path: "/columnReordering", label: "Column Reordering", element: <ColumnReordering /> },
   { path: "/columnResizing", label: "Column Resizing", element: <ColumnResizing /> },
-  { path: "/columnVisibility", label: "Column Visibility", element: <ColumnVisibility /> }
+  { path: "/columnVisibility", label: "Column Visibility", element: <ColumnVisibility /> },
+  { path: "/bandedColumns", label: "Banded Columns", element: <BandedColumns /> }
 ];
 
 createRoot(document.getElementById("root")).render(
