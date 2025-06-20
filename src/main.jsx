@@ -63,6 +63,10 @@ createRoot(document.getElementById("root")).render(
           gap: 15,
           margin: 30,
           placeContent: "center",
+          maxWidth: "90vw",
+          marginLeft: 0,
+          marginRight: 0,
+          flexWrap: "wrap"
         }}
       >
         {routes.map((route) => (
