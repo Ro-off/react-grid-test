@@ -15,6 +15,9 @@ import { Searching } from "./pages/Searching";
 import { Grouping } from "./pages/Grouping";
 import { Selection } from "./pages/Selection";
 import { Editing } from "./pages/Editing";
+import { DetailRow } from "./pages/DetailRow"
+import { ColumnReordering } from "./pages/ColumnReordering.jsx";
+
 const routes = [
   { path: "/", label: "Test", element: <App /> },
   { path: "/fundamentals", label: "Fundamentals", element: <Fundamentals /> },
@@ -52,6 +55,8 @@ const routes = [
   { path: "/grouping", label: "Grouping", element: <Grouping /> },
   { path: "/selection", label: "Selection", element: <Selection /> },
   { path: "/editing", label: "Editing", element: <Editing /> },
+  { path: "/detailRow", label: "Detail Row", element: <DetailRow /> },
+  { path: "/columnReordering", label: "Column Reordering", element: <ColumnReordering /> }
 ];
 
 createRoot(document.getElementById("root")).render(

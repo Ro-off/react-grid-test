@@ -10,7 +10,7 @@ import {
 
 import { generateRows } from '../demo-data/generator';
 
-const DetailRow = () => {
+const BasicDetailRow = () => {
     const RowDetail = ({ row }) => (
         <div>
             Details for
@@ -53,20 +53,13 @@ const DetailRow = () => {
     );
 };
 
-const CustomEditors = () => {
-    return (
-        <>
-            <h4>Custom Editors</h4>
-        </>
-    );
-};
 
 
-export const DataFormatting = () => {
+
+export const DetailRow = () => {
     return (
         <>
-            <DetailRow />
-            <CustomEditors />
+            <BasicDetailRow />
         </>
     );
 };
