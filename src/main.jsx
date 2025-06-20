@@ -21,6 +21,7 @@ import { ColumnResizing } from "./pages/ColumnResizing";
 import { ColumnVisibility } from "./pages/ColumnVisibility";
 import { BandedColumns } from "./pages/BandedColumns";
 import { FixedColumns } from "./pages/FixedColumns";
+import { VirtualScrolling } from "./pages/VirtualScrolling";
 
 const routes = [
   { path: "/", label: "Test", element: <App /> },
@@ -64,7 +65,8 @@ const routes = [
   { path: "/columnResizing", label: "Column Resizing", element: <ColumnResizing /> },
   { path: "/columnVisibility", label: "Column Visibility", element: <ColumnVisibility /> },
   { path: "/bandedColumns", label: "Banded Columns", element: <BandedColumns /> },
-  { path: "/fixedColumns", label: "Fixed Columns", element: <FixedColumns /> }
+  { path: "/fixedColumns", label: "Fixed Columns", element: <FixedColumns /> },
+  { path: "/virtualScrolling", label: "Virtual Scrolling", element: <VirtualScrolling /> }
 ];
 
 createRoot(document.getElementById("root")).render(
